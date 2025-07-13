@@ -1,0 +1,23 @@
+name: nightsmp
+version: '1.0-SNAPSHOT'
+main: deFelix.testplugin.Testplugin
+api-version: '1.21'
+commands:
+  testcommand: {}
+  Discord: {}
+  admin: {}
+  server-restart: {}
+  spirale:
+    description: Erstellt oder löscht eine Spirale aus Partikeln.
+    usage: /spirale set <name> <höhe> <breite> oder /spirale delete <name>
+  test: {}
+  bossbartimer: {}
+  timer: {}
+  boss: {}
+  flyschuhe: {}
+  craftingmenu:
+    description: Öffnet ein gespeichertes Crafting-Menü
+  crafting:
+    description: Crafting hinzufügen oder löschen
+  lifestealbuch:
+    description: Gibt dir ein Buch mit Lifesteal

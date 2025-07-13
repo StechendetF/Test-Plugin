@@ -1,0 +1,21 @@
+################################################
+              # Night SMP Plugin #
+################################################
+permissions:
+  prefix: "test"
+
+
+################################################
+              # Alle Berechtigungen #
+################################################
+
+# Info das vor den 1. pinkt ist das was ihr bei prefix reinschreibt
+
+# test.actionbaTimer
+# test.admin
+# test.boss
+# test.bossbartimer
+# test.reload
+# test.spirale
+# test.test
+# test.reload

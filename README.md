@@ -1,20 +1,20 @@
-# Mein Ersts Test Plugin
+# Mein Erstes Test-Plugin
 
-es giebt 11 Befhle die ihn habt
+Dieses Plugin enthält **11 Befehle**, die verschiedene Funktionen bieten.
 
-## Befhels liste + Beschreibung
+## Befehlsliste & Beschreibung
 
-1. [/Spirale](#spirale)
-2. [/testcommand](#testcommand)
-3. [/discord](#discord)
+1. [/Spirale](#Spirale)
+2. [/testcommand](#Testcommand)
+3. [/discord](#Discord)
 4. [/admin](#Admin)
-5. [/server-restart]()
-6. [/test]()
-7. [/bossbartimer]()
-8. [/timer]()
-9. [/flyschuhe]()
-10. [/crafting]()
-    1. [/craftingmenu]()
+5. [/server-restart](#Server-restart)
+6. [/test](#Test)
+7. [/bossbartimer](#Bossbartimer)
+8. [/timer](#Timer)
+9. [/flyschuhe](#Flyschuhe)
+10. [/crafting](#Crafting)
+    1. [/craftingmenu](#Craftingmenu)
    
 
 
@@ -23,16 +23,18 @@ es giebt 11 Befhle die ihn habt
 ## Spirale
 
 **Beschreibung:**  
-mit den Befhel kannst du eine Spirale erstellen mit jeglichen Partikeln jeglicher größe und breite  
-**Befehl:**  
+Mit diesem Befehl kannst du eine Spirale mit beliebigen Partikeln, Höhen und Breiten erstellen.
+
+**Befehl:**   
 > /spirale set Name Höhe Breite Partikel
 
 
 ## testcommand
 
 **Beschreibung:**  
-mit den Befehl kansnt du nur testen ob das Plugin funktioniert (sinlos keine ahnung warum ich das gecodet habe)   
-**Befehl:**
+Mit diesem Befehl kannst du testen, ob das Plugin funktioniert. (Ziemlich sinnlos, keine Ahnung, warum ich das überhaupt programmiert habe.)
+
+**Befehl:**  
 > /testcommand
 
 
@@ -40,29 +42,39 @@ mit den Befehl kansnt du nur testen ob das Plugin funktioniert (sinlos keine ahn
 ## Discord
 
 **Beschreibung:**  
-mit diesen befhel kannst du eine naricht von discord inklisive link reinschiken lassen einstellbar über die **discord.yml**  
-**Befhel:**
+Mit diesem Befehl wird eine Nachricht mit einem Discord-Link gesendet. Der Text ist in der **discord.yml** konfigurierbar.
+
+**Befehl:**  
 > /discord
+
 
 ## Admin
 
 **Beschreibung:**  
-mit diesne befhel öffnest du ein menü wo items drinne sind die komische verzauberungen haben die du auch rausnehmen kannst  
-**Befehl:**  
+Öffnet ein Menü mit Items, die seltsame Verzauberungen besitzen. Du kannst die Items auch aus dem Menü nehmen.
+
+**Befehl:**   
 > /admin
 
 
-## Server-restart
+## Server-Restart
 
 **Beschreibung:**  
-Das sit mein absolut coolster befehl vom gantzen plugin damit startest du einen timer wo die spieler mitbekommen das der server in 15 sekunden neustartet die spieler bekommen es über ein titel mit und über der xp leiste erscheint ein cowntdown wo man siet wie lange es noch daauert bis der sevrer restartet  
-**Befhel:**  
+Mein absolut coolster Befehl im Plugin! Starte einen 15-sekündigen Restart-Timer mit Countdown.  
+Die Spieler sehen:
+
+- Einen Titel mit der Info
+- Einen Countdown über der XP-Leiste
+
+**Befehl:**  
 > /server-restart
 
 
 ## Test
-**Beschreibung:**
-mit den befel tut man ein großteil des plugins neuladen  
+
+**Beschreibung:**  
+Lädt große Teile des Plugins neu.
+
 **Befehl:**  
 > /test
 
@@ -70,7 +82,8 @@ mit den befel tut man ein großteil des plugins neuladen
 ## Bossbartimer
 
 **Beschreibung:**  
-mit diesen befhel erschaft man eine bossbar der ein tier ist der hochzählt  
+Erstellt eine Bossbar, die wie ein Timer funktioniert und mit der Zeit wächst.
+
 **Befehl:**  
 > /bossbartimer
 
@@ -78,31 +91,43 @@ mit diesen befhel erschaft man eine bossbar der ein tier ist der hochzählt
 ## Timer
 
 **Beschreibung:**  
-mit diesen befhel kannst du einen timer starten der in der actionbar angezeigt wird du kannst ihn tommen und starten  
-**Befehl:**
-> /timer
+Startet einen Timer, der in der Actionbar angezeigt wird.  
+Der Timer kann gestartet und gestoppt werden.
+
+**Befehl:**  
+> /timer create name
+> /timer delete name
 
 
 ## Flyschuhe
 
 **Beschreibung:**  
-mit diesen befhel kannst du schuhe erschaffen mit dne du selbst in survival fliegen kannst sobald du die schuhe anziehst es erscheinen auch gleichzeitig partikel unter deinen füßen soblad du fliegst   
-wichtige Plugins die du dafür brauchst **Essentials**  
+Erstellt Schuhe, mit denen du im Survival-Modus fliegen kannst. Sobald du die Schuhe anziehst:
+
+- Kannst du fliegen (benötigt: **Essentials**)
+- Es erscheinen Partikel unter deinen Füßen beim Fliegen
+
 **Befehl:**  
 > /flyschuhe
 
 
-## Crafting  
+## Crafting
 
 **Beschreibung:**  
-mit diesne befhel kannst du eigene crafting rezepte anzeigen lassen die du selber hinzugefügt hast (wichtig dies fügt nur eine von dir erstelltes craftingrezept zum anschauen dar es erstellt das crafting rezept nicht)  
-**Befehle:** 
+Zeigt benutzerdefinierte Crafting-Rezepte an, die du selbst hinzugefügt hast.  
+**Hinweis:** Der Befehl zeigt das Rezept nur an – es wird nicht automatisch ins Spiel übernommen.
+
+**Befehle:**  
 > /crafting hinzufügen name
 > /crafting remove name
 
 ## Craftingmenu
 
 **Beschreibung:**  
-mit diesen befehl kannst du dir deine crafting rezepte mit den richtigen namen anschauen
-**befehl:**  
-> /craftingmenu name (*wichtig:**  es giet dafür noch kein Tab commpelt)
+Zeigt dir deine gespeicherten Crafting-Rezepte übersichtlich im Menü an.
+
+**Befehl:**   
+> /craftingmenu name  
+> **Hinweis:** Es gibt dafür derzeit noch keine Tab-Completion.
+
+Create BY StechedetF
